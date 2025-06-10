@@ -1,38 +1,43 @@
-# CronometroApp
-📝 Descrição do App – Cronômetro
-O Cronômetro App é um aplicativo simples e funcional desenvolvido em React Native com Expo que permite medir o tempo com precisão, exibindo minutos, segundos e milissegundos.
+# ⏱️ Cronômetro App
 
-Ele oferece funcionalidades essenciais como:
+O **Cronômetro App** é um aplicativo simples e eficiente, desenvolvido em **React Native com Expo**, que permite medir o tempo com precisão, registrar voltas e controlar a contagem com botões de iniciar, pausar e reiniciar.
 
-Iniciar o cronômetro
+---
 
-Pausar a contagem
+## 📱 Descrição
 
-Reiniciar para zerar o tempo
+Este aplicativo exibe o tempo decorrido em **minutos, segundos e milissegundos**. É ideal para acompanhar treinos, estudos cronometrados ou qualquer atividade que envolva controle de tempo.  
+Além das funções básicas, o app permite registrar **voltas (laps)** sem pausar o cronômetro, armazenando cada marcação com precisão.
 
-Registrar voltas (laps) enquanto o cronômetro está rodando
+---
 
-Cada volta registra o tempo atual sem interromper o cronômetro, permitindo acompanhar múltiplos intervalos em uma única sessão. É ideal para atividades esportivas, estudos com tempo cronometrado ou desafios pessoais.
+## ✅ Funcionalidades
 
-⚙️ Tecnologias utilizadas
-React Native
+- Iniciar o cronômetro
+- Pausar a contagem
+- Reiniciar (zerar) o tempo
+- Registrar voltas durante a contagem
+- Exibir a lista de voltas em ordem (da mais recente para a mais antiga)
 
-Expo
+---
 
-JavaScript
+## 🛠️ Tecnologias utilizadas
 
-React Hooks (useState, useRef)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- JavaScript
+- React Hooks (`useState`, `useRef`)
+- FlatList (para renderizar as voltas)
 
-FlatList para renderizar a lista de voltas
+---
 
-👨‍💻 Como funciona
-Ao abrir o app, o cronômetro começa zerado.
+## ⚙️ Como funciona
 
-O botão "Iniciar" inicia a contagem em milissegundos.
+1. Ao abrir o app, o cronômetro inicia zerado.
+2. Pressione **Iniciar** para começar a contagem.
+3. Durante a contagem, use o botão **Volta** para salvar um tempo parcial.
+4. Pressione **Pausar** para interromper temporariamente a contagem.
+5. Pressione **Reiniciar** para zerar o cronômetro e apagar as voltas.
 
-O botão "Volta" registra o tempo atual como uma nova marcação.
-
-O botão "Pausar" interrompe o cronômetro.
-
-O botão "Reiniciar" zera o tempo e limpa a lista de voltas.
+---
 
